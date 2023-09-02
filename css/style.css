@@ -87,3 +87,32 @@ span {
     color: black;
     font-weight: bold;
 }
+
+.ending_section {
+    border-radius: 3px;
+    margin: 100px 100px;
+    padding: 10px 20px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.ending_leftside {
+    display: flex;
+    flex-direction: column;
+    
+}
+.ending_leftside h2 {
+    font-size: 1rem;
+}
+
+.ending_leftside span {
+    color: white;
+    font-weight: 100;
+}
+
+.ending_section > button {
+    border: white solid 2px;
+    max-height: 30px;
+}
